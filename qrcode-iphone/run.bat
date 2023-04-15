@@ -1,1 +1,3 @@
 py index.py
+
+exit
