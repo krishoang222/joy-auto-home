@@ -1,6 +1,6 @@
 # My joyful 🏡 home to 🤖 automate daily chores
 
-## Import and run script in different folder:
+## Import and run script in different folder
 
 with `.js`
 
