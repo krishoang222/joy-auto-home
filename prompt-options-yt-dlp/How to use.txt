@@ -1,0 +1,6 @@
+1. open cmd at this folder 
+2. `yt-dlp.exe [URL] [OPTIONS]`
+
+---
+
+1. run file run.bat
