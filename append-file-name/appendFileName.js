@@ -70,5 +70,6 @@ invoke();
 // (TODO) create file varialbe outside *.js (require them) -> easier for GitHub upload
 // (TODO) check is Absolute to avoid misuse
 // (TODO) handler extension input not have '.'
+// (TODO) use readlinePromise to avoid boilerplate
 // (IDEA) rename extension
 // (IDEA) find & replace
