@@ -1,0 +1,19 @@
+.
+001 - Intro.mp4
+002 - What is Sass？.mp4
+003 - Compiling Sass with VS Code extensions.mp4
+004 - Sass partials.mp4
+005 - Sass variables and CSS custom properties.mp4
+006 - Building the demo responsive website.mp4
+007 - Sass and BEM.mp4
+008 - Building the responsive mobile layout.mp4
+009 - Building the desktop layout.mp4
+010 - Setting widths.mp4
+011 - Sass mixins.mp4
+012 - Responsive typography.mp4
+013 - Sass functions.mp4
+014 - Why I use em units in media queries.mp4
+015 - Nesting and BEM.mp4
+016 - Helper⧸Utility classes.mp4
+---
+

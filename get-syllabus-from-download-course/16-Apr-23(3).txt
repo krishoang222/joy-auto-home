@@ -1,0 +1,15 @@
+.
+001 - Intro.mp4
+002 - Project Setup.mp4
+003 - Frontend Setup.mp4
+004 - Auth - Login⧸Register.mp4
+005 - Home, Sidebar & Navbar.mp4
+006 - Feed View.mp4
+007 - Pin Component.mp4
+008 - Create Pin.mp4
+009 - Pin Details.mp4
+010 - User Profile.mp4
+011 - Search & Categories.mp4
+012 - Deployment.mp4
+---
+
