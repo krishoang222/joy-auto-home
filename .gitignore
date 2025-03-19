@@ -2,3 +2,4 @@ var.bat
 *test*
 log.txt
 .DS_STORE
+node_modules
