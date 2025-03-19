@@ -1,0 +1,11 @@
+{
+  "name": "work-with-csv-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "csv": "^6.3.11",
+    "sqlite3": "^5.1.7"
+  }
+}
