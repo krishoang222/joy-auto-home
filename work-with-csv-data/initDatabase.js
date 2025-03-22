@@ -1,3 +1,3 @@
-import { initDatabase } from './db.js'
+import { initDatabase } from "./db.js";
 
-initDatabase()
+initDatabase();

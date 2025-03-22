@@ -15,7 +15,7 @@ function generateBookMarkLet(jsCode) {
     encodeURIComponent(
       bookmarkletTemplates.wrapperStart +
         jsCode.trim() +
-        bookmarkletTemplates.wrapperEnd
+        bookmarkletTemplates.wrapperEnd,
     );
 
   return bookMarklet;
@@ -28,12 +28,12 @@ function decodeBookMarklet(bookmarlet) {
     throw new Error('Bookmarket must starts with prefix "javascript:"');
 
   const jsCodeInsideWrapper = decodeURIComponent(
-    bookmarlet.trim().slice(bookmarkletTemplates.prefix.length)
+    bookmarlet.trim().slice(bookmarkletTemplates.prefix.length),
   );
 
   const jsCode = jsCodeInsideWrapper.slice(
     bookmarkletTemplates.wrapperStart.length,
-    jsCodeInsideWrapper.lastIndexOf(bookmarkletTemplates.wrapperEnd)
+    jsCodeInsideWrapper.lastIndexOf(bookmarkletTemplates.wrapperEnd),
   );
 
   return jsCode;

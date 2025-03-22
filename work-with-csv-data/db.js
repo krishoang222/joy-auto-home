@@ -1,19 +1,19 @@
-import sqlite3 from 'sqlite3'
-const sqlite3Verbose = sqlite3.verbose()
+import sqlite3 from "sqlite3";
+const sqlite3Verbose = sqlite3.verbose();
 
-const defaultDbFilePath = './db/population.db'
+const defaultDbFilePath = "./db/population.db";
 
 export function connectToDatabase(dbFilePath) {
-  // connect db 
-  const db = new sqlite3Verbose.Database(dbFilePath = defaultDbFilePath)
-  console.log('Connected to the database successfully')
-  return db
+  // connect db
+  const db = new sqlite3Verbose.Database((dbFilePath = defaultDbFilePath));
+  console.log("Connected to the database successfully");
+  return db;
 }
 
 export function initDatabase(dbFilePath = defaultDbFilePath) {
   // init db
-  const db = new sqlite3Verbose.Database(dbFilePath)
-  console.log({ db })
+  const db = new sqlite3Verbose.Database(dbFilePath);
+  console.log({ db });
 
   // init tables
   db.run(`
@@ -28,6 +28,6 @@ export function initDatabase(dbFilePath = defaultDbFilePath) {
       estimate         INT
     )
   `);
-  console.log('Created database successfully')
-  return db
+  console.log("Created database successfully");
+  return db;
 }
